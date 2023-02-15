@@ -2,6 +2,7 @@ import axios from 'axios';
 
 export default async (req, res) => {
   const { accession } = req.query;
+  
   const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=${accession}&rettype=gbwithparts`;
   
   try {
