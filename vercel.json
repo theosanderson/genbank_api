@@ -1,10 +1,10 @@
 {
   "functions": {
     "src/pages/api/genbank/[accession].js": {
-      "maxDuration": 90 // This function can run for a maximum of 30 seconds
+      "maxDuration": 90 
     },
     "src/pages/api/*.js": {
-      "maxDuration": 90 // This function can run for a maximum of 15 seconds
+      "maxDuration": 90
     }
   }
 }
